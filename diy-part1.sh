@@ -40,7 +40,7 @@ ADD_SMARTDNS=true      # luci-app-smartdns（本体只用 feeds 的 smartdns）
 # ADD_POWEROFF=true      # luci-app-poweroffdevice（关机）
 # ADD_OWQ_WOL=true       # luci-app-owq-wol（网络唤醒，依赖 etherwake）
 ADD_WATCHDOG=true      # luci-app-watchdog（看门狗，包在子目录，需特殊处理）
-ADD_TASKPLAN=true      # luci-app-taskplan（定时任务）
+# ADD_TASKPLAN=true      # luci-app-taskplan（定时任务）
 # ADD_OAF=true           # luci-app-oaf（应用过滤，含内核模块，高风险）
 ADD_LUCI_APP=true       # qwe-qaq/luci-app 仓库（monorepo）
                         #   ├─ luci-app-natmode     NAT 类型三选一（网络 → NAT 类型）
